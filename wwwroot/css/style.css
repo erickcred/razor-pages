@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1034px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 40px 0;
+    margin-bottom: 40px; 
+}
