@@ -1,7 +1,38 @@
 * {
     box-sizing: border-box;
+    font-family: "Arial", "Helvetica", sans-serif;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header div.container {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    align-items: center;
+}
+header {
+    background-color: rgb(29, 29, 29);
+    padding: 16px 0;
+    transition: all .3s;
+}
+header.sticky {
+    padding: 8px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: all .3s
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+nav ul li a {
+    padding: 6px 8px;
+    color: white;
 }
 
 .container {
@@ -14,3 +45,4 @@
     padding: 40px 0;
     margin-bottom: 40px; 
 }
+
