@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace MyRazorApp.Pages
 {
-    public class index : PageModel
+    public class Index : PageModel
     {
-        private readonly ILogger<index> _logger;
+        private readonly ILogger<Index> _logger;
 
-        public index(ILogger<index> logger)
+        public Index(ILogger<Index> logger)
         {
             _logger = logger;
         }
