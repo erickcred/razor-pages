@@ -4,28 +4,5 @@
     ViewData["Title"] = "Index";
 }
 
-
-
 <h1>@ViewData["Title"]</h1>
 
-<div class="section">
-  <table border="1">
-    <thead>
-      <tr>
-        <td>#</td>
-        <td>Category</td>
-        <td>Price</td>
-      </tr>
-    </thead>
-    <tbody>
-      @foreach(var item in Model.Categories)
-      {
-        <tr>
-          <td>@item.Id</td>
-          <td>@item.Title</td>
-          <td>@item.Price.ToString("C", new CultureInfo("en-US"))</td>
-        </tr>
-      }
-    </tbody>
-  </table>
-</div>
